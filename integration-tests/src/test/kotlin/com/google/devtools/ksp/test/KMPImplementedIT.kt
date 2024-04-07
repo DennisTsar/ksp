@@ -13,6 +13,8 @@ import org.junit.runners.Parameterized
 import java.io.File
 import java.util.jar.*
 
+// testJs, testAndroidNative, testLinuxX64 succeed with KSP1 but fail with KSP2.
+
 @RunWith(Parameterized::class)
 class KMPImplementedIT(useKSP2: Boolean) {
     @Rule

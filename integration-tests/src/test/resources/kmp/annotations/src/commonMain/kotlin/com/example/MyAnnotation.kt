@@ -1,3 +1,3 @@
 package com.example
 
-annotation class MyAnnotation
+annotation class MyAnnotation(val x: String = "")
